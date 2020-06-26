@@ -1,0 +1,26 @@
+server:
+  port: 8002
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  instance:
+    instance-id: service-consumer
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: secret
+      access-token-uri: http://localhost:9001/oauth/token
+      user-authorization-uri: http://localhost:9001/oauth/authorize
+    resource:
+      token-info-uri: http://localhost:9001/oauth/check_token
+info:
+  app:
+    name: xx
+    description: consumer
+    version: v1.0

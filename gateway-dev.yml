@@ -1,0 +1,26 @@
+server:
+  port: 9527
+spring:
+  datasource:
+    username: root
+    password: WYZ980417
+    url: jdbc:mysql://47.98.246.225:3306/vue?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    gateway:
+      routes:
+        - id: consumer
+          uri: lb://service-consumer
+          predicates:
+            - Path=/user/**
+eureka:
+  instance:
+    instance-id: service-gateway
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+info:
+  app:
+    name: xx
+    description: gateway
+    version: v1.0
