@@ -2,15 +2,15 @@ server:
   port: 8001
 spring:
   datasource:
-    username: root
-    password: WYZ980417
+    username: AQBAM8rsIWAvzQJMHBmOkdUVCH0LvoPHh0Do8SOAwezxUYovIC7VXXEhVets/QxnqGkrD5l9bKIXiqfzepb87x38fPn0HHjtMJ51ViA/hayhZuv+jkWUgxdQarOSQHxfEFzBY8ZTxxLYWRFlzLaDpznZooSsKfxEuux2qi0b2AplKRktx2HJ4YT0Ma8qFCSVsrCajOQ0ZHkv9N06GdARgSDZBgy/hTEigMHqTjX/+g1yGrGrDChqVXRCR5zzO5A+H6pkDZSYbtZdMnkYTfUDKRuhSvdU7GOqsh23Td3v2D08BWOWwK+jZftSY6XLjVWwmF8OBg0di5yKbeU+voABDQEbanbrfC2Cto4JChJKLKup7ibhsqgTlXOFWlo4Y4l1gRc=
+    password: AQA/7PTN1v1e+TbidiBQLsk79K+tUK7ks3AZA22GtMzcDmGf6giFtt/07EcE9FiMMH26tUHqTE8YCyfw7d7p4jPdbhUXJpPo3A5i8El4Qw0Vrmv13wEnYRBHLNNnCbFE4xW+H/tcqmqRKrU9W+HTn0190jGfRQHsP9e8n3DR1f4Ja3/g8OvWgCxx/9GqTICkRPEuW9S8mFUMt45uenudACrqkAxjjB9ZGcQbYuPyGbbj/rrA+qvkQ4pNTzaqNRiFljsAjSw8vCQaDstnSfLEfBTL/Zx3YlV0G3B9rLYdlS7Ur0b9812fbXD2bWV6RzVsakbpYMBnYju/SjC8nbEVqsfPpCUXSHLV9Me6CzPfkaoLnbsvFiA4pv9+PLO5FWs1h/w=
     url: jdbc:mysql://47.98.246.225:3306/vue?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
     database: 0
     host: 47.98.246.225
     port: 6379
-    password: WYZ980417
+    password: AQA/7PTN1v1e+TbidiBQLsk79K+tUK7ks3AZA22GtMzcDmGf6giFtt/07EcE9FiMMH26tUHqTE8YCyfw7d7p4jPdbhUXJpPo3A5i8El4Qw0Vrmv13wEnYRBHLNNnCbFE4xW+H/tcqmqRKrU9W+HTn0190jGfRQHsP9e8n3DR1f4Ja3/g8OvWgCxx/9GqTICkRPEuW9S8mFUMt45uenudACrqkAxjjB9ZGcQbYuPyGbbj/rrA+qvkQ4pNTzaqNRiFljsAjSw8vCQaDstnSfLEfBTL/Zx3YlV0G3B9rLYdlS7Ur0b9812fbXD2bWV6RzVsakbpYMBnYju/SjC8nbEVqsfPpCUXSHLV9Me6CzPfkaoLnbsvFiA4pv9+PLO5FWs1h/w=
     timeout: 300
     lettuce:
       pool:
